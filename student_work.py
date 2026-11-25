@@ -1,4 +1,4 @@
-"""Console prototype for a student laboratory work workflow."""
+"""Console application for the student laboratory work workflow."""
 
 from __future__ import annotations
 
@@ -230,7 +230,7 @@ def show_status(args: argparse.Namespace) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Консольный прототип системы сдачи лабораторных работ"
+        description="Консольная система сдачи лабораторных работ"
     )
     commands = parser.add_subparsers(dest="command", required=True)
 
