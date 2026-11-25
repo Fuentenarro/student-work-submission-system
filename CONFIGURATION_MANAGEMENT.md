@@ -14,7 +14,7 @@
 | --- | --- | --- | --- |
 | CI-01 | `README.md` | Назначение проекта и инструкция по запуску | 0.1.0 |
 | CI-02 | `docs/requirements.md` | Функциональные требования проекта | 0.1.0 |
-| CI-03 | `student_work.py` | Исходный код консольного прототипа | 0.2.0 |
+| CI-03 | `student_work.py` | Исходный код консольной системы | 0.2.0 |
 | CI-04 | `.gitignore` | Перечень локальных данных, не включаемых в репозиторий | 0.1.0 |
 | CI-05 | `CONFIGURATION_MANAGEMENT.md` | Учет версий, веток и изменений | 0.1.0 |
 
@@ -38,4 +38,4 @@
 | Изменение | Ветка | Коммит |
 | --- | --- | --- |
 | Базовый состав проекта | `main` | `chore: create project configuration baseline` |
-| Консольный прототип и инструкция запуска | `feature/student-workflow` | `feat: implement student work workflow` |
+| Консольная система и инструкция запуска | `feature/student-workflow` | `feat: implement student work workflow` |
